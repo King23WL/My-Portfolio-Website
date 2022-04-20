@@ -163,6 +163,11 @@ header {
   align-items: center;
   padding: 10px 10%;
   background-color: #24252a;
+  position: fixed;
+  left: 0; /* ADDED */
+  top: 0; /* ADDED */
+  width: 100%; /* ADDED */
+  z-index: 101;
 }
 
 .logo {
