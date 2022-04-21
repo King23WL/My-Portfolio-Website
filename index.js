@@ -18,10 +18,3 @@ menuOpen.addEventListener("click", () => {
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
-
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  e.target.elements.name.value = "";
-  e.target.elements.email.value = "";
-  e.target.elements.message.value = "";
-});
